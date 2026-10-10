@@ -53,7 +53,7 @@ export default function Home() {
       
       {/* Custom Cursor Glow (Folio/Unfold mix vibe) */}
       <motion.div
-        className="pointer-events-none fixed inset-0 z-0 transition duration-300 mix-blend-screen opacity-40"
+        className="hidden md:block pointer-events-none fixed inset-0 z-0 transition duration-300 mix-blend-screen opacity-40"
         style={{
           background: useMotionTemplate`
             radial-gradient(
@@ -126,11 +126,12 @@ export default function Home() {
             </div>
 
             <motion.div variants={fadeInUp} className="lg:col-span-5 relative">
-              <div className="relative w-full aspect-[4/5] overflow-hidden rounded-sm grayscale hover:grayscale-0 transition-all duration-700">
+              <div className="relative w-full aspect-[4/5] overflow-hidden rounded-sm lg:grayscale hover:grayscale-0 transition-all duration-700">
                 <Image 
                   src="/profile.jpg" 
                   alt="Samiun Mahmud" 
-                  fill 
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw" 
                   className="object-cover"
                   priority
                 />
