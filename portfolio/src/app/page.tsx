@@ -73,7 +73,7 @@ export default function Home() {
             <a href="#work" className="hover:text-cyan-400 transition-colors">Work</a>
             <a href="#about" className="hover:text-cyan-400 transition-colors">About</a>
             <a href="#creative" className="hover:text-cyan-400 transition-colors">Creative</a>
-            <a href="/resume.pdf" download="Samiun_Mahmud_Resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors flex items-center gap-1">Resume <ExternalLink size={14}/></a>
+            <a href="/Samiun_Mahmud_Resume.pdf" download="Samiun_Mahmud_Resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors flex items-center gap-1">Resume <ExternalLink size={14}/></a>
           </nav>
         </div>
       </header>
@@ -114,7 +114,7 @@ export default function Home() {
                 <a href="#work" className="px-8 py-4 bg-white text-black font-bold uppercase tracking-wider text-sm hover:bg-cyan-400 transition-colors">
                   Explore Work
                 </a>
-                <a href="/resume.pdf" download="Samiun_Mahmud_Resume.pdf" target="_blank" rel="noopener noreferrer" className="px-8 py-4 border border-zinc-700 text-white font-bold uppercase tracking-wider text-sm hover:bg-zinc-800 transition-colors flex items-center gap-2">
+                <a href="/Samiun_Mahmud_Resume.pdf" download="Samiun_Mahmud_Resume.pdf" target="_blank" rel="noopener noreferrer" className="px-8 py-4 border border-zinc-700 text-white font-bold uppercase tracking-wider text-sm hover:bg-zinc-800 transition-colors flex items-center gap-2">
                   <Briefcase size={18} /> View Resume
                 </a>
                 <div className="flex gap-4 items-center">
